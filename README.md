@@ -75,3 +75,9 @@ export async function loader({ request }: LoaderArgs) {
   });
 };
 ```
+
+## Why this fork?
+
+The original code includes a change to the peer dependency for Remix v2, but no release has been made yet.
+
+This fork is just a temporary way to have a usable public release with that peer dependency.
